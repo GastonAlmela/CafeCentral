@@ -7,17 +7,16 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./styles/styles.css">
     <title>entregaUnoGastonAlmela</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 
 <body>
     <header class="encabezado">
-        <div class="logo-container">
-            <img src="./assets/LogoCafeCentral.png" alt="Logo de Café Central" width="100px">
-            <span class="brand">CAFÉ CENTRAL</span>
-        </div>
+        
 
 
-        <nav>
+        <!-- <nav>
             <ul class="nav">
                 <li class="li-nav">
                     <a class="nav-link" href="#">Home</a>
@@ -35,6 +34,37 @@
                     <a class="nav-link" href="./pages/productos.html">Productos</a>
                 </li>
             </ul>
+        </nav> -->
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="logo-container">
+            <a href="index.html">
+                <img src="./assets/LogoCafeCentral.png" alt="Logo de Café Central" width="115px">
+            </a>
+        </div>
+                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/sobreNosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/productos.html">Productos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 

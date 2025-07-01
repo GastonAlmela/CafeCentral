@@ -127,3 +127,8 @@ p {
 }
 
 
+.title-header{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: black;
+}
