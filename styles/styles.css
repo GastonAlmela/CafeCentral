@@ -1,0 +1,129 @@
+/* fuente Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* font-family: "Nunito", sans-serif; */
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+
+
+.footer-logo {
+    width: 90px;
+    height: auto;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    /* text-align: center; */
+}
+
+.p-h1 {
+    text-align: center;
+}
+
+.p-central {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.a-ingreso {
+    text-align: center;
+}
+
+.fondo-articulo {
+    background-color: aqua;
+}
+
+/* si yo estilo al contenedor, todo lo de adentro lo recibe */
+.li-nav {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.brand {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+
+.cafe-galery {
+    text-align: center;
+}
+
+.boton-producto {
+    text-align: center;
+}
+
+.p-contacto {
+    text-align: left;
+
+}
+
+.info-contact {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.imagen-mapa {
+    width: 500px;
+}
+
+.p-nosotros {
+    text-align: left;
+}
+
+
+
+
+.card {
+    width: 700px;
+}
+
+.names {
+    font-size: 30px;
+}
+
+.retorno-index {
+
+    font-size: 20px;
+
+    text-decoration: none;
+}
+
+.center-index {
+    text-align: center;
+}
+
+.titulo-producto {
+    text-align: left;
+}
+
+
