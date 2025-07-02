@@ -6,61 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="../styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
 <body>
     <header class="encabezado">
-        <div class="logo-container">
-            <img src="../assets/LogoCafeCentral.png" alt="Logo de Café Central" width="100px">
-            <span class="brand">CAFÉ CENTRAL</span>
-        </div>
-
-
-        <nav>
-            <ul class="nav">
-                <li class="li-nav">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="./sobreNosotros.html">Sobre nosotros</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="./opiniones.html">Opiniones</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="./productos.html">Productos</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="logo-container">
+                    <a href="../index.html">
+                        <img src="../assets/LogoCafeCentral.png" alt="Logo de Café Central" width="115px">
+                    </a>
+                </div>
+                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/sobreNosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/opiniones.html">Opiniones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Contactanos y visitanos </h2>
-            <p class="p-contacto">Informacion de contacto</p>
-            <div class="info-contacto-mapa">
-                <ul class="info-contact">
-                    <li>Telefono: 1131030679</li>
-                    <li>Correo: info@cafecentral.com</li>
-                    <li>Ubicacion: Buenos Aires</li>
-                </ul>
-                <img src="../assets/ubicacion-sm.png" alt="Ubicacion" class="imagen-mapa">
+
+
+        <h2>Contáctanos y Visítanos</h2>
+
+        <div class="contenedor-contacto">
+            <div class="info-contacto">
+                <h3>Información de Contacto</h3>
+                <p> +54 1154123676</p>
+                <p> info@cafecentral.com</p>
+                <p> Buenos Aires</p>
             </div>
 
+            <div class="mapa-contacto">
+                <img src="../assets/ubicacion-sm.png" alt="Mapa de Ubicación">
+            </div>
+
+        </div>
         </section>
-
-
-
     </main>
+
     <footer class="footer">
         <div class="footer-content">
             <img src="../assets/LogoCafeCentral.png" alt="" class="footer-logo">
             <p class="p-footer">©2025 Café Central. All rights reserved.</p>
         </div>
     </footer>
-</body>
 
+</body>
 </html>

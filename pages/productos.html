@@ -5,41 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
 <body>
     <header class="encabezado">
-        <div class="logo-container">
-            <img src="../assets/LogoCafeCentral.png" alt="Logo de Café Central" width="100px">
-            <span class="brand">CAFÉ CENTRAL</span>
-        </div>
-
-
-        <nav>
-            <ul class="nav">
-                <li class="li-nav">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="./sobreNosotros.html">Sobre nosotros</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="./opiniones.html">Opiniones</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="#">Productos</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="logo-container">
+                    <a href="../index.html">
+                        <img src="../assets/LogoCafeCentral.png" alt="Logo de Café Central" width="115px">
+                    </a>
+                </div>
+                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/sobreNosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/opiniones.html">Opiniones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <div class="div-producto">
-        <img src="../assets/vista-lateral-de-uma-xicara-de-cafe-com-leite-na-mesa-de-madeira_140725-12099.png"
-            alt="Descripción de la imagen" class="foto-producto" />
+    <div class="contenedor-producto">
         <div class="descripcion-producto">
             <h2 class="titulo-producto">Blend maestro de la casa</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores odit nesciunt atque totam ipsam
@@ -68,6 +75,11 @@
                 nam
                 mollitia perspiciatis voluptates aspernatur</p>
         </div>
+        <div class="producto-imagen">
+            <img src="../assets/vista-lateral-de-uma-xicara-de-cafe-com-leite-na-mesa-de-madeira_140725-12099.png"
+                alt="Descripción de la imagen" class="foto-producto" />
+        </div>
+
 
     </div>
     <section class="center-index">
