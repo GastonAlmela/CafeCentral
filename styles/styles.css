@@ -28,6 +28,20 @@ h3{
     height: auto;
 }
 
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-content{
+    display: flex;
+}
+
+.p-container{
+    display: flex;
+    
+}
+
 p {
     color: rgb(0, 0, 0);
     font-size: 30px;
@@ -131,4 +145,16 @@ p {
     text-decoration: none;
     font-size: 1.7rem;
     color: black;
+}
+
+
+.div-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+
+}
+.card{
+    width: 400px;
+    margin: 10px;
 }
